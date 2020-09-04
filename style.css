@@ -16,7 +16,7 @@ button.button:hover{
     background-color: darkred;
 }
 
-div p{
+p{
     margin-top: 2%;
     color: black;
 }
@@ -25,17 +25,23 @@ div p{
     margin-top: 1%;
     background-color: white;
     border-radius: 4px;
-    
 }
 
 #content p.generated-content{  
     margin: 5px;
-    padding: 5px;
     color: black;
-    
+    background-color: gold;
 }
 
 img{
     margin-top: 10px;
     border-radius: 20px;
+}
+
+p a {
+   color: darkred; 
+}
+
+p a:hover{
+    color: gold;
 }
