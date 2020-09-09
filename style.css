@@ -5,9 +5,10 @@
     text-align: left;
   }
 
-  
 button.button {
-    
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: #6F6159;
     margin-top: 1%;
 }
@@ -27,19 +28,22 @@ p{
     border-radius: 4px;
 }
 
-#content p.generated-content{  
+#content p.generated-content{
     margin: 5px;
     color: black;
     background-color: gold;
+    height: auto;
 }
 
 img{
     margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
     border-radius: 20px;
 }
 
 p a {
-   color: darkred; 
+   color: darkred;
 }
 
 p a:hover{
